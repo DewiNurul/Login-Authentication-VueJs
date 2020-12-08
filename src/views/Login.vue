@@ -11,22 +11,12 @@
                 <form v-on:submit.prevent="Login" class="pt-3" method="post" action="#">
                 <div class="form-group">
                   <div class="input-group">
-                    <div class="input-group-prepend bg-transparent">
-                      <span class="input-group-text bg-transparent border-right-0">
-                        <i class="mdi mdi-account-outline text-primary"></i>
-                      </span>
-                    </div>
-                    <input v-model="email" type="email" class="form-control form-control-lg border-left-0" id="email" name="email" placeholder="Email" required>
+                    <input v-model="email" type="email" class="form-control form-control-lg" id="email" name="email" placeholder="Email" required>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="input-group">
-                    <div class="input-group-prepend bg-transparent">
-                      <span class="input-group-text bg-transparent border-right-0">
-                        <i class="mdi mdi-lock-outline text-primary"></i>
-                      </span>
-                    </div>
-                    <input v-model="password" type="password" class="form-control form-control-lg border-left-0" name="password" id="password" placeholder="Password" required>                        
+                    <input v-model="password" type="password" class="form-control form-control-lg" name="password" id="password" placeholder="Password" required>                        
                   </div>
                 </div>
                 <div class="my-3">

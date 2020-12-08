@@ -11,45 +11,25 @@
                 <form v-on:submit.prevent="Register" class="pt-3" method="post">
                   <div class="form-group">
                     <div class="input-group">
-                      <div class="input-group-prepend bg-transparent">
-                        <span class="input-group-text bg-transparent border-right-0">
-                          <i class="mdi mdi-account-outline text-primary"></i>
-                        </span>
-                      </div>
-                      <input v-model="name" type="text" class="form-control form-control-lg border-left-0" id="name" name="name" placeholder="Name" required>
+                      <input v-model="name" type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Name" required>
                     </div>
                   </div>
 
                   <div class="form-group">
                     <div class="input-group">
-                      <div class="input-group-prepend bg-transparent">
-                        <span class="input-group-text bg-transparent border-right-0">
-                          <i class="mdi mdi-message-outline text-primary"></i>
-                        </span>
-                      </div>
-                      <input v-model="email" type="email" class="form-control form-control-lg border-left-0" id="email" name="email" placeholder="Email" required>
+                      <input v-model="email" type="email" class="form-control form-control-lg" id="email" name="email" placeholder="Email" required>
                     </div>
                   </div>
 
                   <div class="form-group">
                     <div class="input-group">
-                      <div class="input-group-prepend bg-transparent">
-                        <span class="input-group-text bg-transparent border-right-0">
-                          <i class="mdi mdi-lock-outline text-primary"></i>
-                        </span>
-                      </div>
-                      <input v-model="password" type="password" class="form-control form-control-lg border-left-0" name="password" id="password" placeholder="New Password" required>                        
+                      <input v-model="password" type="password" class="form-control form-control-lg" name="password" id="password" placeholder="New Password" required>                        
                     </div>
                   </div>
 
                   <div class="form-group">
                     <div class="input-group">
-                      <div class="input-group-prepend bg-transparent">
-                        <span class="input-group-text bg-transparent border-right-0">
-                          <i class="mdi mdi-lock-outline text-primary"></i>
-                        </span>
-                      </div>
-                      <input v-model="password_verify" type="password" class="form-control form-control-lg border-left-0" name="password_verify" id="password_verify" placeholder="Retype Your New Password" required>                        
+                      <input v-model="password_verify" type="password" class="form-control form-control-lg" name="password_verify" id="password_verify" placeholder="Retype Your New Password" required>                        
                     </div>
                   </div>
 
